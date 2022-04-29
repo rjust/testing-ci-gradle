@@ -26,6 +26,9 @@ public class AvgTest {
     return Arrays.asList(new Object[][] {
         { new double[]{ 1,  2,  3}, 2},
         { new double[]{-1, -2, -3}, 2},
+        { new double[]{-1,  2, -3}, 2},
+        { new double[]{-1, -1, -1}, 1},
+        { new double[]{ 0,  0,  0}, 0},
     });
   }
 
