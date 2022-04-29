@@ -12,7 +12,16 @@ public class AvgTest {
   private static double EPS = 1e-9;
 
   @Test
-  public void testDummy() {
-    assertTrue(true);
+  public void test1() {
+    double actual = new Avg().avgAbs(new double[]{1, 2, 3});
+    double expected = 2.0;
+    assertEquals(expected, actual, EPS);
+  }
+
+  @Test
+  public void test2() {
+    double actual = new Avg().avgAbs(new double[]{-1, -2, -3});
+    double expected = 2.0;
+    assertEquals(expected, actual, EPS);
   }
 }
