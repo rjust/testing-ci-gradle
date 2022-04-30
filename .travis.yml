@@ -1,0 +1,10 @@
+language: java
+install: skip
+
+jdk:
+  - openjdk8
+
+os: linux
+
+script:
+  - ./gradlew test
