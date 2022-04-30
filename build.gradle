@@ -1,0 +1,17 @@
+plugins {
+  id 'application'
+}
+
+plugins {
+  id 'net.saliman.cobertura' version '4.0.0'
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  testImplementation 'junit:junit:4.11'
+  testRuntime "org.slf4j:slf4j-api:1.7.10"
+}
+
