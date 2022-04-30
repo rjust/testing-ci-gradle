@@ -1,4 +1,4 @@
-# Testing and CI [![Build Status](https://app.travis-ci.com/rjust/testing-ci-gradle.svg?branch=master)](https://travis-ci.com/rjust/testing-ci-gradle)
+# Testing and CI [![Build Status](https://app.travis-ci.com/rjust/testing-ci-gradle.svg?branch=master)](https://app.travis-ci.com/github/rjust/testing-ci-gradle)
 This repository provides example source code and tests for the CSE 403 lecture
 on Testing and CI. This repository demonstrates testing best practices, build
 system configuration, and CI integration with Travis CI.
